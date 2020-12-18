@@ -1,0 +1,57 @@
+* {
+  --charcoal: hsla(197, 37%, 24%, 1);
+}
+body {
+  background-color: var(--charcoal);
+  font-family: "IBM Plex Sans", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 75px;
+  color: rgba(219, 159, 46, 0.781);
+}
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  height: 385px;
+}
+.square {
+  display: flex;
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  outline: 3px solid rgba(219, 159, 46, 0.781);
+  cursor: pointer;
+  font-size: 3.5rem;
+  font-family: sans-serif;
+}
+.square:hover {
+  background-color: rgba(220, 220, 220, 0.1);
+}
+span {
+  margin: auto;
+}
+.display {
+  text-align: center;
+  color: rgba(219, 159, 46, 0.781);
+  font-size: 30px;
+  margin: 50px 400px 10px 400px;
+  background-color: rgba(220, 220, 220, 0.2);
+}
+.reload {
+  display: none;
+  margin: auto;
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(60, 90, 100);
+  border-radius: 5px;
+}
+.unclickable {
+  pointer-events: none;
+}
+.start {
+  display: flex;
+}
